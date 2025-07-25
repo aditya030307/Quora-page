@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
+<<<<<<< HEAD
 const port = process.env.PORT || 3000;
+=======
+const port = process.env.PORT || 3000;
+>>>>>>> 13a8009 (Fixed package.json)
 const path = require("path");
 const methodOverride = require("method-override");
 
