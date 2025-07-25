@@ -28,6 +28,10 @@ let posts = [
 
     }
 ]
+
+app.get("/", (req, res) => {
+    res.redirect("/posts"); // or render a homepage like res.render("home.ejs")
+});
 app.get("/posts",(req,res) =>{
     res.render("index.ejs",{posts} );
 });
