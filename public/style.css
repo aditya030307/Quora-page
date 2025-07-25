@@ -1,0 +1,101 @@
+/* h1{
+    color: maroon;
+}
+.post{
+    background-color: blanchedalmond;
+}
+.user{
+    font-style: italic;
+} */
+
+/* General Layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Heading */
+h1 {
+    color: maroon;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Post Card */
+.post {
+    background-color: #fff9e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.user {
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 1.1em;
+    color: #444;
+}
+
+/* Action Buttons */
+.actions {
+    margin-top: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.view {
+    background-color: #3498db;
+    color: white;
+}
+
+.edit {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
+
+.create {
+    background-color: #2ecc71;
+    color: white;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+}
+
+/* Form for Delete */
+.delete-form {
+    display: inline;
+}
